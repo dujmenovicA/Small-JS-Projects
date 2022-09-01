@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    padding: 0;
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+}
+
+.glavni-div {
+    border: solid 2px #6a040f;
+    border-radius: 20px;
+    width: 700px;
+    height: 450px;
+    margin: 0px auto;
+    padding: 5px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.lijevi-div {
+    float: left;
+    width: 55%;
+    padding: 0 10px;
+}
+
+
+
+.vl {
+    border-left: 2px solid #6a040f;
+    height: 450px;
+    float: left;
+}
+
+.namirnice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.unos input,
+button {
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+.namirnice img {
+    width: 160px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.artikal {
+    margin: 0 10px;
+}
+
+.glavni-div hr {
+    width: 90%;
+    color: black;
+}
+
+.desni-div {
+    float: right;
+    width: 39%;
+    padding: 0 10px;
+    background-image: url(Images/cart.png);
+    background-size: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.desni-div #lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista button {
+    display: inline;
+}
+
+
+#total {
+    display: none;
+    position: absolute;
+    top: 450px
+}
